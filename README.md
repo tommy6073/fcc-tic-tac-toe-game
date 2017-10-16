@@ -1,4 +1,4 @@
-# fcc-tic-tac-toe-game
+# Tic Tac Toe Game
 A project made for freeCodeCamp. Tic Tac Toe game to play with computer.
 
 Working demo:
