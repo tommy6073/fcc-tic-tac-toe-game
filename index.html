@@ -6,6 +6,34 @@
   <title>Tic Tac Toe Game</title>
 </head>
 <body>
+<div id="container">
+  <table id="board" class="hidden">
+    <tr class="row">
+      <td id="c00"></td>
+      <td id="c01"></td>
+      <td id="c02"></td>
+    </tr>
+    <tr class="row">
+      <td id="c10"></td>
+      <td id="c11"></td>
+      <td id="c12"></td>
+    </tr>
+    <tr class="row">
+      <td id="c20"></td>
+      <td id="c21"></td>
+      <td id="c22"></td>
+    </tr>
+  </table>
+  <div id="result-screen" class="hidden">
+    <div id="result-message"></div>
+    <div id="play-again">Play Again</div>
+  </div>
+  <div id="symbol-selection">
+    <p>Would you like to be X or O</p>
+    <button id="select-x">X</button>
+    <button id="select-o">O</button>
+  </div>
+</div>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="script.js"></script>
 </body>
