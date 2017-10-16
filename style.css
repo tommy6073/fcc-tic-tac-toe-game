@@ -1,0 +1,53 @@
+body {
+  background-color: #66cdaa;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 64px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#board {
+  width: 400px;
+  height: 400px;
+}
+
+td {
+  width: 120px;
+  height: 120px;
+  border: 8px solid #cccccc;
+  cursor: pointer;
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #cc7195;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: #66cdaa;
+  font-size: 96px;
+  color: #ffffff;
+}
+
+#space {
+  width: 100px;
+}
